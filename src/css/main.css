@@ -12,3 +12,125 @@ img,
 video {
   display: block;
 }
+
+h1 {
+  color: #000;
+  text-align: right;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  width: 100px;
+}
+
+h3 {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.chart {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  margin-top: 50px;
+}
+
+.swizerland {
+  display: flex;
+  align-items: center;
+  align-self: stretch;
+}
+
+.mobile {
+  display: flex;
+  width: 195px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  background: #ffcc2f;
+  margin-left: 20px;
+}
+
+.desktop {
+  display: flex;
+  width: 105px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2px;
+
+  border-radius: 0px 10px 10px 0px;
+  background: #37d3d2;
+}
+
+.USA {
+  display: flex;
+  align-items: center;
+  align-self: stretch;
+  .mobile {
+    width: 153px;
+    height: 30px;
+  }
+  .desktop {
+    width: 147px;
+    height: 30px;
+  }
+}
+
+.europe {
+  display: flex;
+  align-items: center;
+  align-self: stretch;
+
+  .mobile {
+    width: 123px;
+    height: 30px;
+  }
+
+  .desktop {
+    width: 177px;
+    height: 30px;
+  }
+}
+
+.legende {
+  display: flex;
+  width: 422px;
+  padding: 20px 0px 20px 120px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+h2 {
+  color: #000;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.Mobile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  .carrejaune {
+    width: 16px;
+    height: 16px;
+    background: #ffcc2f;
+  }
+}
+
+.Desktop {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  .carrebleu {
+    width: 16px;
+    height: 16px;
+    background: #37d3d2;
+  }
+}
